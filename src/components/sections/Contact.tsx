@@ -169,7 +169,7 @@ export default function Contact() {
             {/* Action Buttons: Download Resume + Copy Email */}
             <div className="flex flex-wrap items-center gap-3">
               <a
-                href="/resume/David_Fady_Farag_Resume.pdf"
+                href="/resume/David_Fady_Resume.pdf"
                 download
                 className="inline-flex items-center gap-2 px-6 py-3 rounded-lg bg-gradient-to-r from-[#D4A853] to-[#E8C975] text-[#09090B] font-bold text-sm hover:shadow-[0_0_30px_-6px_rgba(212,168,83,0.4)] transition-all duration-300 hover:-translate-y-0.5"
               >

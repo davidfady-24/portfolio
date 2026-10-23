@@ -79,7 +79,7 @@ export default function Footer() {
         >
           {/* Copyright */}
           <p className="font-mono text-xs md:text-sm text-[#52525B] tracking-wider text-center md:text-left">
-            &copy; 2026 DAVID FADY FARAG &mdash; DATA ANALYST
+            &copy; 2026 DAVID FADY &mdash; DATA ANALYST
           </p>
 
           {/* Social Links */}

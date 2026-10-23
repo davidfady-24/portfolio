@@ -41,7 +41,7 @@ function TerminalCard() {
       {/* Code Body */}
       <div className="p-5 font-mono text-[13px] leading-relaxed overflow-x-auto">
         <CodeLine>
-          <span className="text-[#52525B]"># David Fady Farag — Data &amp; BI Analyst</span>
+          <span className="text-[#52525B]"># David Fady — Data &amp; BI Analyst</span>
         </CodeLine>
         <CodeLine>
           <span className="text-[#A1A1AA]">{'>>> '}</span>
@@ -57,7 +57,7 @@ function TerminalCard() {
         <CodeLine indent={2}>
           <span className="text-[#E8975A]">&quot;name&quot;</span>
           <span className="text-[#A1A1AA]">: </span>
-          <span className="text-[#E8975A]">&quot;David Fady Farag&quot;</span>
+          <span className="text-[#E8975A]">&quot;David Fady&quot;</span>
           <span className="text-[#A1A1AA]">,</span>
         </CodeLine>
         <CodeLine indent={2}>

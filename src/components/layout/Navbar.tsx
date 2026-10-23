@@ -115,7 +115,7 @@ export default function Navbar() {
               }}
               className="font-mono text-sm md:text-base text-[#D4A853] tracking-wider hover:text-[#E8C975] transition-colors duration-300"
             >
-              {"// david.farag"}
+              {"// david.fady"}
             </a>
 
             {/* Desktop Navigation */}

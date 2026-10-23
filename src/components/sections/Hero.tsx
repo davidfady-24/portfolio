@@ -228,10 +228,9 @@ export default function Hero() {
           variants={itemVariants}
           className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold tracking-tight leading-[0.95]"
         >
-          <span className="text-[#FAFAFA]">DAVID FADY</span>
-          <br />
+          <span className="text-[#FAFAFA]">DAVID </span>
           <span className="bg-gradient-to-r from-[#D4A853] via-[#E8C975] to-[#F5DFA0] bg-clip-text text-transparent">
-            FARAG
+            FADY
           </span>
         </motion.h1>
 
@@ -288,7 +287,7 @@ export default function Hero() {
             View Projects
           </button>
           <a
-            href="/resume/David_Fady_Farag_Resume.pdf"
+            href="/resume/David_Fady_Resume.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="px-6 py-3 border border-[#D4A853]/40 text-[#D4A853] font-semibold text-sm rounded-lg hover:bg-[#D4A853]/10 transition-colors duration-300 tracking-wide"
