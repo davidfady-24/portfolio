@@ -15,7 +15,7 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://portfolio-ten-sepia-36.vercel.app'),
+  metadataBase: new URL('https://david-fady-portfolio.vercel.app'),
   title:
     'David Fady — Data & BI Analyst | Python Automation · SQL · Power BI',
   description:
@@ -40,7 +40,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: 'https://portfolio-ten-sepia-36.vercel.app',
+    url: 'https://david-fady-portfolio.vercel.app',
     siteName: 'David Fady — Data & BI Analyst',
     title:
       'David Fady — Data & BI Analyst | Python Automation · SQL · Power BI',
@@ -73,7 +73,7 @@ const jsonLd = {
   '@type': 'Person',
   name: 'David Fady',
   jobTitle: 'Data & BI Analyst',
-  url: 'https://portfolio-ten-sepia-36.vercel.app',
+  url: 'https://david-fady-portfolio.vercel.app',
   email: 'David.Fady24@gmail.com',
   sameAs: [
     'https://github.com/davidfady-24',
