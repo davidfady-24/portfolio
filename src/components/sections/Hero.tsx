@@ -154,14 +154,6 @@ const itemVariants = {
   },
 } as const;
 
-/* ─── Stats Data ─── */
-const stats = [
-  { value: '3,500+', label: 'Platform Users', color: 'text-[#FAFAFA]' },
-  { value: '213K+', label: 'EGP Revenue Tracked', color: 'text-[#D4A853]' },
-  { value: '31.6K+', label: 'Records Modeled', color: 'text-[#FAFAFA]' },
-  { value: '+30%', label: 'Conversion Uplift', color: 'text-emerald-400' },
-];
-
 const roles = [
   'Data & BI Analyst',
   'Python Automation Engineer',
@@ -253,26 +245,41 @@ export default function Hero() {
           />
         </motion.div>
 
-        {/* Stats Bar */}
+        {/* Core Competencies Strip */}
         <motion.div
           variants={itemVariants}
-          className="mt-10 flex flex-wrap items-center justify-center gap-x-6 gap-y-4 md:gap-x-0"
+          className="mt-8 flex flex-wrap items-center justify-center gap-2.5 max-w-3xl"
         >
-          {stats.map((stat, index) => (
-            <div key={stat.label} className="flex items-center">
-              {index > 0 && (
-                <div className="hidden md:block w-px h-10 bg-[#D4A853]/15 mx-6" />
-              )}
-              <div className="text-center">
-                <div className={`font-mono text-2xl font-bold ${stat.color}`}>
-                  {stat.value}
-                </div>
-                <div className="font-mono text-[11px] text-[#52525B] uppercase tracking-wider mt-1">
-                  {stat.label}
-                </div>
-              </div>
-            </div>
-          ))}
+          <div className="flex items-center gap-2 px-3.5 py-1.5 rounded-lg bg-[#141419]/90 border border-[#D4A853]/20 backdrop-blur-sm">
+            <span className="w-1.5 h-1.5 rounded-full bg-[#D4A853]" />
+            <span className="font-mono text-xs text-[#FAFAFA] tracking-wide">
+              Power BI &amp; DAX (PL-300)
+            </span>
+          </div>
+          <div className="flex items-center gap-2 px-3.5 py-1.5 rounded-lg bg-[#141419]/90 border border-[#D4A853]/20 backdrop-blur-sm">
+            <span className="w-1.5 h-1.5 rounded-full bg-[#D4A853]" />
+            <span className="font-mono text-xs text-[#FAFAFA] tracking-wide">
+              SQL &amp; Star Schema Modeling
+            </span>
+          </div>
+          <div className="flex items-center gap-2 px-3.5 py-1.5 rounded-lg bg-[#141419]/90 border border-[#D4A853]/20 backdrop-blur-sm">
+            <span className="w-1.5 h-1.5 rounded-full bg-[#D4A853]" />
+            <span className="font-mono text-xs text-[#FAFAFA] tracking-wide">
+              Python ETL &amp; Automation
+            </span>
+          </div>
+          <div className="flex items-center gap-2 px-3.5 py-1.5 rounded-lg bg-[#141419]/90 border border-[#D4A853]/20 backdrop-blur-sm">
+            <span className="w-1.5 h-1.5 rounded-full bg-[#D4A853]" />
+            <span className="font-mono text-xs text-[#FAFAFA] tracking-wide">
+              Tableau &amp; Advanced Excel
+            </span>
+          </div>
+          <div className="flex items-center gap-2 px-3.5 py-1.5 rounded-lg bg-[#141419]/90 border border-[#D4A853]/20 backdrop-blur-sm">
+            <span className="w-1.5 h-1.5 rounded-full bg-[#D4A853]" />
+            <span className="font-mono text-xs text-[#FAFAFA] tracking-wide">
+              Time-Series Forecasting
+            </span>
+          </div>
         </motion.div>
 
         {/* CTA Buttons */}
